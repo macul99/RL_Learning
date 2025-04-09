@@ -14,3 +14,9 @@
 
 ### Agent and Environment
 <img src="../images/agent_and_env.png" alt="Agent and Environment" width="50%">
+
+### History of State
+- **History** is the sequence of observations, actions and rewards up to time t
+  - Ht = O1, R1, A1, ..., At−1, Ot, Rt
+- **State** is the info used to determine what happens next, is a function of history:
+  - St = f(Ht)

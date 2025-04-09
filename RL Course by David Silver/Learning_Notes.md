@@ -20,3 +20,6 @@
   - Ht = O1, R1, A1, ..., At−1, Ot, Rt
 - **State** is the info used to determine what happens next, is a function of history:
   - St = f(Ht)
+
+### Environment State
+<img src="../images/env_state.png" alt="Agent and Environment" width="50%">

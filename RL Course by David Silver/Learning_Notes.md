@@ -48,5 +48,23 @@
   - Model: agent’s representation of the environment. It predicts what the environment will do next, including state transition matrix and reward.
     - <img src="../images/model.png" alt="Agent and Environment" width="50%">
 
+### Categorizing RL Agents
+- Based on Policy and Value Function
+  - <img src="../images/categorizing_RL_agent_1.png" alt="Agent and Environment" width="30%">
+- Based on Model
+  - <img src="../images/categorizing_RL_agent_2.png" alt="Agent and Environment" width="30%">
+- Overall
+  - <img src="../images/categorizing_RL_agent_3.png" alt="Agent and Environment" width="30%">
 
+### Learning and Planning
+Two fundamental problems in sequential decision making
+- Reinforcement Learning:
+  - The environment is initially unknown
+  - The agent interacts with the environment
+  - The agent improves its policy
+- Planning:
+  - A model of the environment is known
+  - The agent performs computations with its model (without any external interaction)
+  - The agent improves its policy
+  - a.k.a. deliberation, reasoning, introspection, pondering, thought, search
 

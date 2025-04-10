@@ -1,4 +1,4 @@
-# L1 - Intro to RL
+![image](https://github.com/user-attachments/assets/bf49b99e-6100-4778-a181-b364c049754e)# L1 - Intro to RL
 
 ### What makes reinforcement learning different from other machine learning paradigms?
 - There is no supervisor, only a reward signal
@@ -23,3 +23,27 @@
 
 ### Environment State
 <img src="../images/env_state.png" alt="Agent and Environment" width="50%">
+
+### Agent State
+<img src="../images/agent_state.png" alt="Agent and Environment" width="50%">
+
+### Information State
+**Information State is Markov State.** The environment state is Markov. The history Ht is Markov.
+<img src="../images/info_state.png" alt="Agent and Environment" width="50%">
+
+### Fully Observable Environments
+- Agent state (S<sup>a</sup><sub>t</sub>) = environment state (S<sup>e</sup><sub>t</sub>) = information state
+- Formally, this is a **Markov decision process** (MDP)
+
+### Partially Observable Environments
+-  agent state (S<sup>a</sup><sub>t</sub>) != environment state (S<sup>e</sup><sub>t</sub>)
+-  Formally this is a **partially observable Markov decision process** (POMDP)
+<img src="../images/partial_MDP.png" alt="Agent and Environment" width="50%">
+
+### Major Components of an RL Agent
+- An RL agent may include **one or more** of these components:
+  - Policy: agent’s behaviour function
+  - Value function: how good is each state and/or action
+  - Model: agent’s representation of the environment
+
+

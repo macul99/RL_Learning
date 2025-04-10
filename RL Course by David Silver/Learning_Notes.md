@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bf49b99e-6100-4778-a181-b364c049754e)# L1 - Intro to RL
+# L1 - Intro to RL
 
 ### What makes reinforcement learning different from other machine learning paradigms?
 - There is no supervisor, only a reward signal
@@ -42,8 +42,11 @@
 
 ### Major Components of an RL Agent
 - An RL agent may include **one or more** of these components:
-  - Policy: agent’s behaviour function
-  - Value function: how good is each state and/or action
-  - Model: agent’s representation of the environment
+  - Policy: agent’s behaviour function (map from state to action)
+    - <img src="../images/policy.png" alt="Agent and Environment" width="50%">
+  - Value function: how good is each state and/or action, it is a prediction of future reward
+  - Model: agent’s representation of the environment. It predicts what the environment will do next, including state transition matrix and reward.
+    - <img src="../images/model.png" alt="Agent and Environment" width="50%">
+
 
 

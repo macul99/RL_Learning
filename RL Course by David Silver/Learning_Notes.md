@@ -68,3 +68,66 @@ Two fundamental problems in sequential decision making
   - The agent improves its policy
   - a.k.a. deliberation, reasoning, introspection, pondering, thought, search
 
+- Example: RL
+  - <img src="../images/exp_RL.png" alt="Agent and Environment" width="50%">
+- Example: Planning
+  - <img src="../images/exp_planning.png" alt="Agent and Environment" width="50%">
+
+### Exploration and Exploitation
+- Exploration finds more information about the environment
+- Exploitation exploits known information to maximise reward
+- It is usually important to explore as well as exploit
+
+### Prediction and Control in Learning
+- Prediction: evaluate the future
+  - Given a policy, find the value function
+- Control: optimise the future
+  - Find the best policy
+  - What is the optimal value function over all possible policies?
+  - What is the optimal policy?
+
+
+# L2 - Markov Decision Processes
+
+Markov decision processes formally describe an *fully observable* environment for reinforcement learning.
+
+Almost all RL problems can be formalised as MDPs, e.g.
+- Optimal control primarily deals with continuous MDPs
+- Partially observable problems can be converted into MDPs
+- Bandits are MDPs with one state
+
+### Markov Property
+The future is independent of the past given the present
+- <img src="../images/markov_property.png" alt="Agent and Environment" width="50%">
+
+### State Transition Matrix
+- <img src="../images/state_transition_matrix.png" alt="Agent and Environment" width="50%">
+
+### Markov Process
+A Markov process is a **memoryless random process**, i.e. a sequence of random states S1, S2, ... with the Markov property.
+- <img src="../images/markov_process.png" alt="Agent and Environment" width="40%">
+
+### Markov Reward Process
+A Markov reward process is a Markov chain with values.
+- <img src="../images/markov_reward_process.png" alt="Agent and Environment" width="40%">
+
+### Return
+<img src="../images/return.png" alt="Agent and Environment" width="50%">
+
+### Why discount?
+- Mathematically convenient to discount rewards
+- Avoids infinite returns in cyclic Markov processes
+- Uncertainty about the future may not be fully represented
+- If the reward is financial, immediate rewards may earn more interest than delayed rewards
+- Animal/human behaviour shows preference for immediate reward
+- It is sometimes possible to use undiscounted Markov reward processes (i.e. γ = 1), e.g. if all sequences terminate
+
+### Value Function
+- The state value function v(s) of an MRP is the expected return starting from state s
+- **v(s) = E [Gt | St = s]**
+
+
+
+
+
+

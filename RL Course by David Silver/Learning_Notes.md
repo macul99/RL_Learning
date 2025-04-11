@@ -126,6 +126,52 @@ A Markov reward process is a Markov chain with values.
 - The state value function v(s) of an MRP is the expected return starting from state s
 - **v(s) = E [Gt | St = s]**
 
+### Bellman Equation for MRPs
+<img src="../images/bellman_equation_for_MRPs.png" alt="Agent and Environment" width="40%">
+
+- Bellman Equation in Matrix Form
+- <img src="../images/bellman_equation_matrix_form.png" alt="Agent and Environment" width="40%">
+
+- The Bellman equation is a linear equation and can be solved directly.
+- Computational complexity is O(n3) for n states
+- Direct solution only possible for small MRPs
+- There are many iterative methods for large MRPs, e.g.
+  - Dynamic programming
+  - Monte-Carlo evaluation
+  - Temporal-Difference learning
+
+### Markov Decision Process
+- A Markov decision process (MDP) is a Markov reward process with decisions (action).
+- <img src="../images/mdp.png" alt="Agent and Environment" width="40%">
+
+- Summary:
+  - Markov Process (MP): {S, P}
+  - Markov Reward Process (MRP): {S, P, R, γ}
+  - Markov Decision Process (MDP): {S, A, P, R, γ}
+
+### Policies
+- A policy π is a distribution over actions given states,
+- **π(a|s) = P[At = a | St = s]**
+- MDP policies depend on the current state (not the history)
+- Policies are stationary (time-independent)
+- Given an MDP M = (S, A, P, R, γ) and a policy π
+- The state sequence S1, S2, ... is a Markov process (S,P<sup>π</sup>)
+- The state and reward sequence S1, R2, S2, ... is a Markov reward process (S,P<sup>π</sup>,R<sup>π</sup>,γ)
+  - <img src="../images/MDP_policy_P_R.png" alt="Agent and Environment" width="20%">
+
+#### Policy State Value Function
+- **v<sub>π</sub>(s) = E<sub>π</sub>[Gt|St = s]**
+- **v<sub>π</sub>(s) = E<sub>π</sub>[R<sub>t+1</sub> + γv<sub>π</sub>(S<sub>t+1</sub>) | St = s]**
+- <img src="../images/state_value_function_to_action_value_function.png" alt="Agent and Environment" width="20%">
+- <img src="../images/state_value_function_recur.png" alt="Agent and Environment" width="30%">
+
+#### Policy Action Value Function
+- **q<sub>π</sub>(s,a) = E<sub>π</sub>[Gt|St = s, At = a]**
+- **q<sub>π</sub>(s,a) = E<sub>π</sub>[R<sub>t+1</sub> + γq<sub>π</sub>(S<sub>t+1</sub>,A<sub>t+1</sub>) | St = s, At = a]**
+- <img src="../images/action_value_function.png" alt="Agent and Environment" width="25%">
+- <img src="../images/action_value_function_recur.png" alt="Agent and Environment" width="35%">
+
+
 
 
 

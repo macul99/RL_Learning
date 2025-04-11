@@ -164,6 +164,7 @@ A Markov reward process is a Markov chain with values.
 - **v<sub>π</sub>(s) = E<sub>π</sub>[R<sub>t+1</sub> + γv<sub>π</sub>(S<sub>t+1</sub>) | St = s]**
 - <img src="../images/state_value_function_to_action_value_function.png" alt="Agent and Environment" width="20%">
 - <img src="../images/state_value_function_recur.png" alt="Agent and Environment" width="30%">
+- **v<sub>π</sub> = R<sub>π</sub> + γP<sub>π</sub>v<sub>π</sub>**
 
 #### Policy Action Value Function
 - **q<sub>π</sub>(s,a) = E<sub>π</sub>[Gt|St = s, At = a]**
@@ -171,7 +172,14 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/action_value_function.png" alt="Agent and Environment" width="25%">
 - <img src="../images/action_value_function_recur.png" alt="Agent and Environment" width="35%">
 
+#### Optimal Value Function
+<img src="../images/optimal_value_function.png" alt="Agent and Environment" width="45%">
 
+#### Optimal Policy
+<img src="../images/optimal_policy.png" alt="Agent and Environment" width="45%">
+
+#### Bellman Optimality Equation for V* and Q*
+<img src="../images/bellman_optimal_value_equation.png" alt="Agent and Environment" width="45%">
 
 
 

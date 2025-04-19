@@ -190,4 +190,27 @@ A Markov reward process is a Markov chain with values.
 
 # L3 - Planning by Dynamic Programming
 
+### What is Dynamic Programming?
+- **Dynamic** sequential or temporal component to the problem
+- **Programming** optimising a “program”, i.e. a policy
+- A method for solving complex problems
+- By breaking them down into subproblems
+  - Solve the subproblems
+  - Combine solutions to subproblems
+ 
+### Requirements for Dynamic Programming
+- Dynamic Programming is a very general solution method for problems which have two properties:
+- Optimal substructure
+  - Principle of optimality applies
+  - Optimal solution can be decomposed into subproblems
+- Overlapping subproblems
+  - Subproblems recur many times
+  - Solutions can be cached and reused
+- Markov decision processes satisfy both properties
+  - Bellman equation gives recursive decomposition
+  - Value function stores and reuses solutions
+
+
+
+
 

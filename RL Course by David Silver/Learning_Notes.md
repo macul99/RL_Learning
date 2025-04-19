@@ -210,7 +210,8 @@ A Markov reward process is a Markov chain with values.
   - Bellman equation gives recursive decomposition
   - Value function stores and reuses solutions
 
-
+### Planning by Dynamic Programming
+- <img src="../images/planning_by_DP.png" alt="Agent and Environment" width="45%">
 
 
 

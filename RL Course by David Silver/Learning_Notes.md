@@ -147,7 +147,7 @@ A Markov reward process is a Markov chain with values.
 - Summary:
   - Markov Process (MP): {S, P}
   - Markov Reward Process (MRP): {S, P, R, γ}
-  - Markov Decision Process (MDP): {S, A, P, R, γ}, **polyci decide with action to take, after that, model (P) decides what the next state is**
+  - Markov Decision Process (MDP): {S, A, P, R, γ}, **policy decide with action to take, after that, model (P) decides what the next state is**
 
 ### Policies
 - A policy π is a distribution over actions given states,

@@ -181,7 +181,13 @@ A Markov reward process is a Markov chain with values.
 #### Bellman Optimality Equation for V* and Q*
 <img src="../images/bellman_optimal_value_equation.png" alt="Agent and Environment" width="45%">
 
+#### Solving the Bellman Optimality Equation
+<img src="../images/solving_bellman_optimal_equation.png" alt="Agent and Environment" width="30%">
+
+### Partially observable MDPs (POMDPs)
+<img src="../images/POMDPs.png" alt="Agent and Environment" width="45%">
 
 
+# L3 - Planning by Dynamic Programming
 
 

@@ -245,6 +245,44 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/value_iteration.png" alt="Agent and Environment" width="45%">
 - <img src="../images/value_iteration1.png" alt="Agent and Environment" width="45%">
 
+### Synchronous Dynamic Programming Algorithms
+- <img src="../images/synchronous_DP_algo.png" alt="Agent and Environment" width="45%">
+
+### Asynchronous Dynamic Programming
+- **All** states are backed up in parallel in **synchronous** backups
+- **Asynchronous** DP backs up states individually, in any order
+- For each selected state, apply the appropriate backup
+- Can significantly reduce computation
+- Guaranteed to converge if all states continue to be selected
+- Three simple ideas for asynchronous dynamic programming:
+  - In-place dynamic programming
+  - Prioritised sweeping
+  - Real-time dynamic programming
+
+### In-Place Dynamic Programming
+- <img src="../images/inplace_DP.png" alt="Agent and Environment" width="45%">
+
+### Prioritised Sweeping
+- <img src="../images/prioritised_sweeping.png" alt="Agent and Environment" width="45%">
+
+### Real-Time Dynamic Programming
+- <img src="../images/realtime_DP.png" alt="Agent and Environment" width="45%">
+
+### Limitation of DP
+- For each backup, every successor state and action is considered by using knowledge of MDP transiiton matrix and reward function
+- It is only effective for medium-sized problems but **not for large problems**.
+- For large problem, need to use **sample backup** (using sample rewards and sample transitions)
+- Advantage of Sample Backup
+  - Model-free: no advance knowledge of MDP required
+  - Breaks the curse of dimensionality through sampling
+  - Cost of backup is constant, independent of n = |S|
+
+### Approximate Dynamic Programming
+- <img src="../images/approximate_DP.png" alt="Agent and Environment" width="45%">
+
+
+
+
 
 
 

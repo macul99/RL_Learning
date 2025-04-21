@@ -280,8 +280,16 @@ A Markov reward process is a Markov chain with values.
 ### Approximate Dynamic Programming
 - <img src="../images/approximate_DP.png" alt="Agent and Environment" width="45%">
 
+### Contraction Mapping Theorem
+- <img src="../images/contraction_mapping_theorem.png" alt="Agent and Environment" width="45%">
 
-
+### Proof of Convergence using Contraction Mapping Theorem
+- Bellman Expectation Backup is a Contraction
+- <img src="../images/bellman_expectation_backup_is_contraction.png" alt="Agent and Environment" width="45%">
+- <img src="../images/convergence_of_policy_iteration.png" alt="Agent and Environment" width="45%">
+- Bellman Optimality Backup is a Contraction
+- <img src="../images/bellman_optimality_backup_is_contraction.png" alt="Agent and Environment" width="45%">
+- <img src="../images/convergence_of_value_iteration.png" alt="Agent and Environment" width="45%">
 
 
 

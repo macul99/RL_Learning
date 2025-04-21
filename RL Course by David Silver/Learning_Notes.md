@@ -213,5 +213,41 @@ A Markov reward process is a Markov chain with values.
 ### Planning by Dynamic Programming
 - <img src="../images/planning_by_DP.png" alt="Agent and Environment" width="45%">
 
+### Other Applications of Dynamic Programming
+- <img src="../images/other_application_of_DP.png" alt="Agent and Environment" width="45%">
+
+### Iterative Policy Evaluation
+- <img src="../images/iterative_policy_evaluation1.png" alt="Agent and Environment" width="45%">
+- <img src="../images/iterative_policy_evaluation.png" alt="Agent and Environment" width="40%">
+
+### How to Improve a Policy
+- <img src="../images/improve_a_policy.png" alt="Agent and Environment" width="45%">
+- This process of **policy iteration** always converges to π∗
+
+### Modified Policy Iteration
+- No need to wait for policy evaluation to converge to vπ
+- Can update policy every iteration (equivalent to value iteration)
+
+### Generalised Policy Iteration
+- <img src="../images/generalized_policy_iteration.png" alt="Agent and Environment" width="45%">
+
+### Principle of Optimality
+- <img src="../images/principle_of_optimality.png" alt="Agent and Environment" width="45%">
+
+### Deterministic Value Iteration
+- <img src="../images/deterministic_value_iteration.png" alt="Agent and Environment" width="45%">
+
+### Value Iteration
+- Unlike policy iteration, there is no explicit policy
+- Intermediate value functions may not correspond to any policy
+- Use **Bellman optimality backup** for each iteration (policy iteration use Bellman Expectation backup)
+- The rest is the same as policy iteration
+- <img src="../images/value_iteration.png" alt="Agent and Environment" width="45%">
+- <img src="../images/value_iteration1.png" alt="Agent and Environment" width="45%">
+
+
+
+
+
 
 

@@ -327,3 +327,45 @@ A Markov reward process is a Markov chain with values.
 - MC does not exploit Markov property
   - Usually more eective in non-Markov environments
 
+### MC, TD0 and DP Backup Comparison
+- <img src="../images/mc_backup.png" alt="Agent and Environment" width="45%">
+- <img src="../images/td0_backup.png" alt="Agent and Environment" width="45%">
+- <img src="../images/dp_backup.png" alt="Agent and Environment" width="45%">
+
+### Bootstrapping and Sampling
+- <img src="../images/bootstrapping_and_sampling.png" alt="Agent and Environment" width="45%">
+- <img src="../images/bootstrapping_and_sampling1.png" alt="Agent and Environment" width="45%">
+
+### TD(lambda)
+- <img src="../images/n_step_return.png" alt="Agent and Environment" width="45%">
+- <img src="../images/lambda_return.png" alt="Agent and Environment" width="45%">
+- <img src="../images/lambda_return1.png" alt="Agent and Environment" width="45%">
+
+### Forward-View TD(lambda)
+- <img src="../images/forward_view_td_lambda.png" alt="Agent and Environment" width="45%">
+
+### Eligibility Traces
+- <img src="../images/eligibility_traces.png" alt="Agent and Environment" width="45%">
+
+### Backward-View TD(lambda)
+- <img src="../images/backward_view_td_lambda.png" alt="Agent and Environment" width="45%">
+- <img src="../images/backward_view_td_lambda1.png" alt="Agent and Environment" width="45%">
+
+### TD(lambda=0) is the same as TD0
+- <img src="../images/td_lambda_and_td0.png" alt="Agent and Environment" width="45%">
+
+### TD(lambda=1) is the same as MC in Offline Setting
+- <img src="../images/td_lambda_and_mc.png" alt="Agent and Environment" width="45%">
+
+
+
+
+
+
+
+
+
+
+
+
+

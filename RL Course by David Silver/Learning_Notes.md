@@ -292,7 +292,19 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/convergence_of_value_iteration.png" alt="Agent and Environment" width="45%">
 
 
+# L4 - Model-Free Prediction
 
+### Monte-Carlo Reinforcement Learning is Model-Free
+- <img src="../images/mc_rl.png" alt="Agent and Environment" width="45%">
+
+### MC Policy Evaluation
+- <img src="../images/mc_policy_evaluation.png" alt="Agent and Environment" width="45%">
+
+### Incremental Mean
+- <img src="../incremental_mean.png" alt="Agent and Environment" width="45%">
+
+### Incremental Monte-Carlo Updates
+- <img src="../images/incremental_mc_update.png" alt="Agent and Environment" width="45%">
 
 
 

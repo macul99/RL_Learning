@@ -307,5 +307,23 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/incremental_mc_update.png" alt="Agent and Environment" width="45%">
 
 
+### Temporal-Difference Learning
+- <img src="../images/td_learning.png" alt="Agent and Environment" width="45%">
 
+### MC vs. TD0
+- <img src="../images/mc_vs_td0.png" alt="Agent and Environment" width="45%">
+- <img src="../images/mc_vs_td0_1.png" alt="Agent and Environment" width="45%">
+
+### Advantages and Disadvantages of MC vs. TD
+- <img src="../images/mc_vs_td0_1.png" alt="Agent and Environment" width="45%">
+- TD has higher bias but lower variance than MC
+  - <img src="../images/mc_vs_td0_bias_variance_tradeoff.png" alt="Agent and Environment" width="45%">
+  - <img src="../images/mc_vs_td0_bias_variance_tradeoff_1.png" alt="Agent and Environment" width="45%">
+- Batch MC vs. Batch TD0 with AB Example
+  - <img src="../images/AB_example.png" alt="Agent and Environment" width="45%">
+  - <img src="../images/AB_example_1.png" alt="Agent and Environment" width="45%">
+- TD exploits Markov property
+  - Usually more ecient in Markov environments
+- MC does not exploit Markov property
+  - Usually more eective in non-Markov environments
 

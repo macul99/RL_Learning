@@ -341,15 +341,31 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/lambda_return.png" alt="Agent and Environment" width="45%">
 - <img src="../images/lambda_return1.png" alt="Agent and Environment" width="45%">
 
-### Forward-View TD(lambda)
-- <img src="../images/forward_view_td_lambda.png" alt="Agent and Environment" width="45%">
+### Offline and Online RL
+- Offline:
+  - Update at the end of each episode, accumulate error at each step.
+  - The total accumulated error at the end of episode will be the same for both forward-view and backward view.
+- Online:
+  - Update at each step of every episode
+  - Forward-view and backward-view are slightly different, but exact online TD(lambda) (Sutton and von Seijen, ICML 2014) achieves perfect equivalence
 
 ### Eligibility Traces
 - <img src="../images/eligibility_traces.png" alt="Agent and Environment" width="45%">
 
+### Forward-View TD(lambda
+- Do not use concept of Eligibility Traces
+- <img src="../images/forward_view_td_lambda.png" alt="Agent and Environment" width="45%">
+
 ### Backward-View TD(lambda)
+- Use concept of Eligibility Traces
 - <img src="../images/backward_view_td_lambda.png" alt="Agent and Environment" width="45%">
 - <img src="../images/backward_view_td_lambda1.png" alt="Agent and Environment" width="45%">
+
+### Proof of TD(1) with Eligibility Trace is the same as MC Error
+- <img src="../images/td1_error_same_as_mc_error.png" alt="Agent and Environment" width="45%">
+
+### Proof of TD(lambda) with Eligibility Trace is the same as Lambda-Error
+- <img src="../images/td_lambda_error_same_as_lambda_error.png" alt="Agent and Environment" width="45%">
 
 ### TD(lambda=0) is the same as TD0
 - <img src="../images/td_lambda_and_td0.png" alt="Agent and Environment" width="45%">
@@ -357,7 +373,14 @@ A Markov reward process is a Markov chain with values.
 ### TD(lambda=1) is the same as MC in Offline Setting
 - <img src="../images/td_lambda_and_mc.png" alt="Agent and Environment" width="45%">
 
+### TD(lambda=1) and MC in Online Setting
+- <img src="../images/mc_and_td1.png" alt="Agent and Environment" width="45%">
 
+### TD(lambda) of Forward and Backward View in Online Setting
+- <img src="../images/td_lambda_error_same_as_lambda_error.png" alt="Agent and Environment" width="45%">
+
+### Summary of Forward and Backward TD(lambda)
+- <img src="../images/summary_of_forward_and_backward_td_lambda.png" alt="Agent and Environment" width="45%">
 
 
 

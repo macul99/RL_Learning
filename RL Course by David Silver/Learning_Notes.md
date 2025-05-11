@@ -323,9 +323,9 @@ A Markov reward process is a Markov chain with values.
   - <img src="../images/AB_example.png" alt="Agent and Environment" width="45%">
   - <img src="../images/AB_example1.png" alt="Agent and Environment" width="45%">
 - TD exploits Markov property
-  - Usually more ecient in Markov environments
+  - Usually more efficient in Markov environments
 - MC does not exploit Markov property
-  - Usually more eective in non-Markov environments
+  - Usually more effective in non-Markov environments
 
 ### MC, TD0 and DP Backup Comparison
 - <img src="../images/mc_backup.png" alt="Agent and Environment" width="45%">
@@ -338,8 +338,8 @@ A Markov reward process is a Markov chain with values.
 
 ### TD(lambda)
 - <img src="../images/n_step_return.png" alt="Agent and Environment" width="45%">
-- <img src="../images/lambda_return.png" alt="Agent and Environment" width="45%">
-- <img src="../images/lambda_return1.png" alt="Agent and Environment" width="45%">
+- <img src="../images/lamda_return.png" alt="Agent and Environment" width="45%">
+- <img src="../images/lamda_return1.png" alt="Agent and Environment" width="45%">
 
 ### Offline and Online RL
 - Offline:

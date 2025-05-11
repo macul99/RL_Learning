@@ -321,7 +321,7 @@ A Markov reward process is a Markov chain with values.
   - <img src="../images/mc_vs_td0_bias_variance_tradeoff_1.png" alt="Agent and Environment" width="45%">
 - Batch MC vs. Batch TD0 with AB Example
   - <img src="../images/AB_example.png" alt="Agent and Environment" width="45%">
-  - <img src="../images/AB_example_1.png" alt="Agent and Environment" width="45%">
+  - <img src="../images/AB_example1.png" alt="Agent and Environment" width="45%">
 - TD exploits Markov property
   - Usually more ecient in Markov environments
 - MC does not exploit Markov property

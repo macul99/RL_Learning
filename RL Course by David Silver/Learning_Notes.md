@@ -318,7 +318,7 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/mc_td_compare.png" alt="Agent and Environment" width="45%">
 - TD has higher bias but lower variance than MC
   - <img src="../images/mc_vs_td0_bias_variance_tradeoff.png" alt="Agent and Environment" width="45%">
-  - <img src="../images/mc_vs_td0_bias_variance_tradeoff_1.png" alt="Agent and Environment" width="45%">
+  - <img src="../images/mc_vs_td0_bias_variance_tradeoff_1.png" alt="Agent and Environment" width="30%">
 - Batch MC vs. Batch TD0 with AB Example
   - <img src="../images/AB_example.png" alt="Agent and Environment" width="45%">
   - <img src="../images/AB_example1.png" alt="Agent and Environment" width="45%">

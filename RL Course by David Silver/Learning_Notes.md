@@ -315,7 +315,7 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/mc_vs_td0_1.png" alt="Agent and Environment" width="45%">
 
 ### Advantages and Disadvantages of MC vs. TD
-- <img src="../images/mc_vs_td0_1.png" alt="Agent and Environment" width="45%">
+- <img src="../images/mc_td_compare.png" alt="Agent and Environment" width="45%">
 - TD has higher bias but lower variance than MC
   - <img src="../images/mc_vs_td0_bias_variance_tradeoff.png" alt="Agent and Environment" width="45%">
   - <img src="../images/mc_vs_td0_bias_variance_tradeoff_1.png" alt="Agent and Environment" width="45%">

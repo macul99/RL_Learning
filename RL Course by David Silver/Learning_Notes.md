@@ -301,7 +301,7 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/mc_policy_evaluation.png" alt="Agent and Environment" width="45%">
 
 ### Incremental Mean
-- <img src="../incremental_mean.png" alt="Agent and Environment" width="45%">
+- <img src="../images/incremental_mean.png" alt="Agent and Environment" width="45%">
 
 ### Incremental Monte-Carlo Updates
 - <img src="../images/incremental_mc_update.png" alt="Agent and Environment" width="45%">

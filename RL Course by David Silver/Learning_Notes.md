@@ -439,6 +439,42 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/relationship_btw_DP_and_TD1.png" alt="Agent and Environment" width="35%">
 
 
+# L6 - Value Function Approximation
+
+### Value Function Approximation
+- Lookup table not suitable for large MDPs due to large number of states
+- <img src="../images/value_function_approximation.png" alt="Agent and Environment" width="35%">
+- <img src="../images/types_of_value_function_approximation.png" alt="Agent and Environment" width="35%">
+
+### Differentiable Function Approximators
+- <img src="../images/differentiable_function_approximators.png" alt="Agent and Environment" width="35%">
+
+### Gradient Descent
+- <img src="../images/gradient_descent.png" alt="Agent and Environment" width="35%">
+
+### Value Function Approximation by Stochastic Gradient Descent
+- <img src="../images/value_function_approximation_by_stochastic_gradient_descent.png" alt="Agent and Environment" width="35%">
+
+### Feature Vectors
+- <img src="../images/feature_vector.png" alt="Agent and Environment" width="35%">
+
+### Linear Value Function Approximation
+- <img src="../images/linear_value_function_approximation.png" alt="Agent and Environment" width="35%">
+
+### Target Value Function for MC and TD
+- <img src="../images/target_value_function_for_MC_and_TD.png" alt="Agent and Environment" width="35%">
+- <img src="../images/linear_value_function_approximation_MC.png" alt="Agent and Environment" width="35%">
+- <img src="../images/linear_value_function_approximation_TD0.png" alt="Agent and Environment" width="35%">
+- <img src="../images/linear_value_function_approximation_TD_lambda.png" alt="Agent and Environment" width="35%">
+
+### Control with Action-Value Function Approximation
+- <img src="../images/control_with_value_function_approximation.png" alt="Agent and Environment" width="35%">
+- <img src="../images/action_value_function_approximation.png" alt="Agent and Environment" width="35%">
+- <img src="../images/linear_action_value_function_approximation.png" alt="Agent and Environment" width="35%">
+- <img src="../images/linear_action_value_function_approximation_MC_and_TD0_and_TD_lambda.png" alt="Agent and Environment" width="35%">
+
+### Convergence of Prediction Algorithms
+- <img src="../images/target_value_function_for_MC_and_TD.png" alt="Agent and Environment" width="35%">
 
 
 

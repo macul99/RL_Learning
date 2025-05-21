@@ -488,5 +488,16 @@ A Markov reward process is a Markov chain with values.
 
 ## Batch Methods:
 
+### Batch Reinforcement Learning
+- <img src="../images/batch_RL.png" alt="Agent and Environment" width="35%">
+- Can be On-Policy or Off-Policy
+- Experience Replay, Minimize Least Square Error of replay and value approximation
+
+
+
+
+
+
+
 
 

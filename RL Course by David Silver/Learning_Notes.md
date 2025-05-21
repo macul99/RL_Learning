@@ -395,20 +395,48 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/epsilon_greedy_exploration.png" alt="Agent and Environment" width="35%">
 - <img src="../images/epsilon_greedy_policy_improvement.png" alt="Agent and Environment" width="35%">
 
-### GLIE Monte-Carlo Control
+### GLIE Monte-Carlo Control, On-Policy
 - <img src="../images/MC_model_free_control.png" alt="Agent and Environment" width="35%">
 - <img src="../images/GLIE_definition.png" alt="Agent and Environment" width="35%">
 - <img src="../images/GLIE_MC_model_free_control.png" alt="Agent and Environment" width="35%">
 
-### TD Model-Free Control
+### TD Model-Free Control, On-Policy
 - <img src="../images/TD_model_free_control.png" alt="Agent and Environment" width="35%">
 
 ### On-Policy Control With Sarsa
 - <img src="../images/on_policy_control_with_SARSA.png" alt="Agent and Environment" width="35%">
 - <img src="../images/SARSA_action_value_update.png" alt="Agent and Environment" width="35%">
-- <img src="../images/TD_model_free_control.png" alt="Agent and Environment" width="35%">
+- <img src="../images/SARSA_on_policy_control_algo.png" alt="Agent and Environment" width="35%">
+- <img src="../images/convergence_of_SARSA.png" alt="Agent and Environment" width="35%">
+- <img src="../images/n_step_SARSA.png" alt="Agent and Environment" width="35%">
 
+### Sarsa-Lambda, On-Policy
+- <img src="../images/SARSA_lembda_forward_view.png" alt="Agent and Environment" width="35%">
+- <img src="../images/SARSA_lembda_backward_view.png" alt="Agent and Environment" width="35%">
+- <img src="../images/SARSA_lembda_algo.png" alt="Agent and Environment" width="35%">
 
+### Off-Policy Learning
+- <img src="../images/off_policy_learning.png" alt="Agent and Environment" width="35%">
+
+### Importance Sampling
+- Importance Sampling is useful for off-policy learning, to convert distribution from miu (ref policy) to pai (current policy)
+- <img src="../images/importance_sampling.png" alt="Agent and Environment" width="35%">
+- <img src="../images/importance_sampling_for_off_policy_MC.png" alt="Agent and Environment" width="35%">
+- Off-Policy MC is not good due to very big variance. TD0 has much less variance since only look ahead for 1 step
+- <img src="../images/importance_sampling_for_off_policy_TD.png" alt="Agent and Environment" width="35%">
+
+### Q-Learning: Off-Policy Learning using Q(s, a)
+- Importance sampling is NOT required for Q-Learning. Only V(s) needs importance sampling
+- For Q-Learning, next action is chosen by behaviour (old) policy (miu), but Q(s,a) is updated using action chosen by target policy (pai)
+- <img src="../images/Q_learning.png" alt="Agent and Environment" width="35%">
+- <img src="../images/Q_learning1.png" alt="Agent and Environment" width="35%">
+- <img src="../images/Q_learning_algo.png" alt="Agent and Environment" width="35%">
+- <img src="../images/Q_learning_algo1.png" alt="Agent and Environment" width="35%">
+
+### Relationship Between DP and TD
+- DP do full-backup, TD do sample backup
+- <img src="../images/relationship_btw_DP_and_TD.png" alt="Agent and Environment" width="35%">
+- <img src="../images/relationship_btw_DP_and_TD1.png" alt="Agent and Environment" width="35%">
 
 
 

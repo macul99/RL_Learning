@@ -449,6 +449,9 @@ A Markov reward process is a Markov chain with values.
 ### Differentiable Function Approximators
 - <img src="../images/differentiable_function_approximators.png" alt="Agent and Environment" width="35%">
 
+
+## Incremental Methods:
+
 ### Gradient Descent
 - <img src="../images/gradient_descent.png" alt="Agent and Environment" width="35%">
 
@@ -474,10 +477,16 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/linear_action_value_function_approximation_MC_and_TD0_and_TD_lambda.png" alt="Agent and Environment" width="35%">
 
 ### Convergence of Prediction Algorithms
-- <img src="../images/target_value_function_for_MC_and_TD.png" alt="Agent and Environment" width="35%">
+- <img src="../images/convergence_of_prediction_algorithms.png" alt="Agent and Environment" width="35%">
+- GTD is better in terms of convergence
+- <img src="../images/gradient_TD_learning.png" alt="Agent and Environment" width="35%">
+- <img src="../images/gradient_TD_learning1.png" alt="Agent and Environment" width="35%">
+
+### Convergence of Control Algorithms
+- <img src="../images/convergence_of_control_algorithms.png" alt="Agent and Environment" width="35%">
 
 
-
+## Batch Methods:
 
 
 

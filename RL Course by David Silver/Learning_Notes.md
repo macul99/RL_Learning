@@ -383,6 +383,31 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/summary_of_forward_and_backward_td_lambda.png" alt="Agent and Environment" width="45%">
 
 
+# L5 - Model Free Control
+
+### On-Policy vs. Off-Policy RL
+- <img src="../images/on_policy_vs_off_policy_rl.png" alt="Agent and Environment" width="45%">
+
+### Model-Free Policy Improvement Requires Value-Action Function, Not Value Function
+- <img src="../images/greedy_policy_improvement_with_value_and_value_action_function.png" alt="Agent and Environment" width="45%">
+
+### Need to do Exploration during policy Improvement - Epsilon-Greedy, cannot do Greedy Improvement
+- <img src="../images/epsilon_greedy_exploration.png" alt="Agent and Environment" width="35%">
+- <img src="../images/epsilon_greedy_policy_improvement.png" alt="Agent and Environment" width="35%">
+
+### GLIE Monte-Carlo Control
+- <img src="../images/MC_model_free_control.png" alt="Agent and Environment" width="35%">
+- <img src="../images/GLIE_definition.png" alt="Agent and Environment" width="35%">
+- <img src="../images/GLIE_MC_model_free_control.png" alt="Agent and Environment" width="35%">
+
+### TD Model-Free Control
+- <img src="../images/TD_model_free_control.png" alt="Agent and Environment" width="35%">
+
+### On-Policy Control With Sarsa
+- <img src="../images/on_policy_control_with_SARSA.png" alt="Agent and Environment" width="35%">
+- <img src="../images/SARSA_action_value_update.png" alt="Agent and Environment" width="35%">
+- <img src="../images/TD_model_free_control.png" alt="Agent and Environment" width="35%">
+
 
 
 

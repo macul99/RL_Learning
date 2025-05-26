@@ -492,6 +492,31 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/batch_RL.png" alt="Agent and Environment" width="35%">
 - Can be On-Policy or Off-Policy
 - Experience Replay, Minimize Least Square Error of replay and value approximation
+- <img src="../images/batch_RL_experience_replay.png" alt="Agent and Environment" width="35%">
+
+### Batch RL using Stochastic Gradient Descent 
+- <img src="../images/batch_RL_experience_replay_SGD.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_DQN.png" alt="Agent and Environment" width="35%">
+
+### Batch RL using Linear Least Squares Prediction
+- <img src="../images/batch_RL_experience_replay_linear_prediction.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_prediction1.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_prediction2.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_prediction3.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_prediction4.png" alt="Agent and Environment" width="35%">
+
+### Batch RL using Least Squares Policy Iteration
+- <img src="../images/batch_RL_experience_replay_least_square_policy_iteration.png" alt="Agent and Environment" width="35%">
+- Linear Least Squares Action-Value Function Approximation
+- <img src="../images/batch_RL_experience_replay_linear_least_square_action_value_func_approximation.png" alt="Agent and Environment" width="35%">
+
+### Batch RL using Linear Least Squares Control
+- <img src="../images/batch_RL_experience_replay_linear_least_square_control.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_least_square_control_Q_learning.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_least_square_control_LSTDQ.png" alt="Agent and Environment" width="35%">
+- <img src="../images/batch_RL_experience_replay_linear_least_square_control_convergence.png" alt="Agent and Environment" width="35%">
+
+
 
 
 

@@ -517,12 +517,72 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/batch_RL_experience_replay_linear_least_square_control_convergence.png" alt="Agent and Environment" width="35%">
 
 
+# L7 - Policy Gradient
 
+### Value-Based and Policy-Based RL
+- <img src="../images/value_based_vs_policy_based_RL.png" alt="Agent and Environment" width="35%">
+- Greedy policy is used for Value-Based RL
 
+### Policy-Based Reinforcement Learning
+- <img src="../images/parametrise_policy.png" alt="Agent and Environment" width="35%">
+- <img src="../images/policy_based_RL_pro_con.png" alt="Agent and Environment" width="35%">
 
+### Policy Objective Functions
+- <img src="../images/policy_objective_functions.png" alt="Agent and Environment" width="35%">
+- <img src="../images/policy_optimization.png" alt="Agent and Environment" width="35%">
 
+### Policy Gradient
+- <img src="../images/policy_gradient.png" alt="Agent and Environment" width="35%">
+- Gradient can be calculated using Finit Difference Approximation or analytically such as Score Function
+- <img src="../images/policy_gradient_by_finite_difference.png" alt="Agent and Environment" width="35%">
+- <img src="../images/policy_gradient_by_score_function.png" alt="Agent and Environment" width="35%">
 
+### Softmax Policy
+- <img src="../images/softmax_policy.png" alt="Agent and Environment" width="35%">
 
+### Gaussian Policy
+- <img src="../images/gaussian_policy.png" alt="Agent and Environment" width="35%">
+
+### Policy Gradient for One-Step MDPs
+- <img src="../images/policy_gradient_for_one_step_MDP.png" alt="Agent and Environment" width="35%">
+
+### Policy Gradient Theorem - Generalize to Multi-Step MDPs
+- <img src="../images/policy_gradient_theorem.png" alt="Agent and Environment" width="35%">
+- MC using return to estimate Q(s,a), will have high variance
+- <img src="../images/MC_policy_gradient.png" alt="Agent and Environment" width="35%">
+
+### Reducing Variance Using a Critic - Need to find Value Function
+- Estimate Q(s,a) with another set of parameters
+- <img src="../images/reducing_variance_using_critic.png" alt="Agent and Environment" width="35%">
+
+### Estimating the Action-Value Function - Critic Task
+- <img src="../images/estimate_action_value_function.png" alt="Agent and Environment" width="35%">
+
+### Action-Value Actor-Critic Algo
+- <img src="../images/actor_critic_algo.png" alt="Agent and Environment" width="35%">
+- <img src="../images/actor_critic_algo_bias.png" alt="Agent and Environment" width="35%">
+
+### Compatible Function Approximation Theorem
+- Linear approximation of Q and V using parameter w has this property together with softmax and gaussian policy
+- <img src="../images/compatible_function_approximation_theorem.png" alt="Agent and Environment" width="35%">
+- <img src="../images/compatible_function_approximation_theorem_proof.png" alt="Agent and Environment" width="35%">
+
+### Advantage Function - Reducing Variance using a Baseline
+- State value function is a good baseline since its expectation is 0
+- <img src="../images/reducing_variance_using_baseline.png" alt="Agent and Environment" width="35%">
+- Can use different parameter v to estimate V(s) but not ideal since need extra parameter
+- <img src="../images/estimate_advantage_function_using_additional_parameter.png" alt="Agent and Environment" width="35%">
+- TD error is a good advantage function, no additional parameter is required
+- <img src="../images/estimate_advantage_function_using_TD_error.png" alt="Agent and Environment" width="35%">
+- So Critic needs to estimate Vv(s) only, below assum Linear Func Approximation for Vv(s) = fai(s)*v
+- theta in below slide should be parameter v
+- <img src="../images/critic_at_different_time_scale.png" alt="Agent and Environment" width="35%">
+- Actor at different time-scale with Advantage by using Critic
+- <img src="../images/actor_at_different_time_scale.png" alt="Agent and Environment" width="35%">
+- <img src="../images/actor_at_different_time_scale1.png" alt="Agent and Environment" width="35%">
+
+### Summary of Policy Gradient Algorithms
+- <img src="../images/summary_of_policy_gradient_algo.png" alt="Agent and Environment" width="35%">
 
 
 

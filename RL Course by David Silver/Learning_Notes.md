@@ -585,4 +585,93 @@ A Markov reward process is a Markov chain with values.
 - <img src="../images/summary_of_policy_gradient_algo.png" alt="Agent and Environment" width="35%">
 
 
+# L8 - Integrating Learning and Planning
+
+### Planning and Learning
+- Planning is when the model is known
+- Learning is when the model is unknown
+  - learn value function directly from experience is called model-free prediction
+  - learn policy directly from experience is called model-free control
+- Combine Learning and Planning
+  - learn model directly from experience
+  - use planning to construct a value function or policy
+
+### Model-Based and Model-Free RL
+- Model-Free RL
+  - No model
+  - Learn value function (and/or policy) from experience
+- Model-Based RL
+  - Learn a model from experience
+  - Plan value function (and/or policy) from model
+
+### Model-Based RL
+- <img src="../images/model_based_RL_process_flow.png" alt="Agent and Environment" width="35%">
+- <img src="../images/model_based_RL_pro_con.png" alt="Agent and Environment" width="35%">
+
+### What is a Model?
+- State Transition matrix and Reward
+- <img src="../images/definition_of_model.png" alt="Agent and Environment" width="35%">
+
+### What is a Model?
+- State Transition matrix and Reward
+- <img src="../images/definition_of_model.png" alt="Agent and Environment" width="35%">
+
+### Learning Model from Experience using Supervised-Learning
+- <img src="../images/learn_model_from experience.png" alt="Agent and Environment" width="35%">
+
+### Learning Model from Experience using Supervised-Learning
+- <img src="../images/learn_model_from experience.png" alt="Agent and Environment" width="35%">
+
+### Planning with a Model
+- Given model {P, R}
+- Solve MDP {S, A, P, R}
+- Some planning algorithm
+  - Value iteration
+  - Policy iteration
+  - Tree search
+  - ...
+
+### Sample-Based Planning
+- Sample experience from model and then use the sample to do model-free learning
+- <img src="../images/sample_based_planning.png" alt="Agent and Environment" width="35%">
+
+### Planning with an Inaccurate Model
+- <img src="../images/planning_with_inaccurate_model.png" alt="Agent and Environment" width="35%">
+
+### Integrated Architecture
+- <img src="../images/real_and_simulated_experience.png" alt="Agent and Environment" width="35%">
+- <img src="../images/integrating_learning_and_planning.png" alt="Agent and Environment" width="35%">
+- <img src="../images/dyna_architecture.png" alt="Agent and Environment" width="35%">
+- <img src="../images/dyna_Q_algo.png" alt="Agent and Environment" width="35%">
+
+
+### Simulation-based Search - Planning Method
+- Forward search is normally used, sample-based planning
+- <img src="../images/forward_search.png" alt="Agent and Environment" width="35%">
+- <img src="../images/simulation_based_search.png" alt="Agent and Environment" width="35%">
+- <img src="../images/simulation_based_search1.png" alt="Agent and Environment" width="35%">
+- Simple MC search is not efficienct since need to simulate all actions
+- <img src="../images/simple_MC_search.png" alt="Agent and Environment" width="35%">
+- MC Tree search
+  - sample using simulation policy
+  - store results in a tree
+- <img src="../images/MC_tree_search_evaluation.png" alt="Agent and Environment" width="35%">
+- <img src="../images/MC_tree_search_simulation.png" alt="Agent and Environment" width="35%">
+- <img src="../images/MC_tree_search_exp_1.png" alt="Agent and Environment" width="35%">
+- <img src="../images/MC_tree_search_exp_2.png" alt="Agent and Environment" width="35%">
+- <img src="../images/MC_tree_search_exp_3.png" alt="Agent and Environment" width="35%">
+- <img src="../images/MC_tree_search_exp_4.png" alt="Agent and Environment" width="35%">
+- <img src="../images/MC_tree_search_exp_5.png" alt="Agent and Environment" width="35%">
+
+### Advantages of MC Tree Search
+- <img src="../images/advantage_of_MC_tree_search.png" alt="Agent and Environment" width="35%">
+
+### TD Search can be used instead of MC Tree Search
+- <img src="../images/advantage_of_TD_search.png" alt="Agent and Environment" width="35%">
+- <img src="../images/TD_search.png" alt="Agent and Environment" width="35%">
+
+### Dyna-2
+- <img src="../images/Dyna_2.png" alt="Agent and Environment" width="35%">
+
+
 
